@@ -12,12 +12,16 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-http-express": "node graphql-with-http-and-express/server.js",
+    "start-basic": "node graphql-basic/server.js"
   },
   "dependencies": {
-    "graphql": "^16.11.0"
-  }
+    "express": "^5.1.0",
+    "graphql": "^16.11.0",
+    "graphql-http": "^1.22.4"
+  },
+  "type": "module"
 }
