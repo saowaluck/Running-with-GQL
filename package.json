@@ -1,0 +1,23 @@
+{
+  "name": "running-with-gql",
+  "version": "1.0.0",
+  "description": "Running project by using concept of GQL",
+  "homepage": "https://github.com/saowaluck/Running-with-GQL#readme",
+  "bugs": {
+    "url": "https://github.com/saowaluck/Running-with-GQL/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saowaluck/Running-with-GQL.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "graphql": "^16.11.0"
+  }
+}
