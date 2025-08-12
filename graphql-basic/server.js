@@ -14,6 +14,6 @@ var rootValue = {
 
 graphql({
 	schema,
-	source: "{ hello}",
+	source: "{ hello }",
 	rootValue
 }).then(res => console.log(res))
